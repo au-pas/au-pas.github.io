@@ -1,0 +1,43 @@
+@import url("/css/gillsans.css");
+
+.title {
+    font-family: Gillsans;
+    font-size: 72px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    line-height: 3em;
+}
+
+.title:hover {
+    color: #999;
+}
+
+.headerlink {
+    display: none;
+    padding-left: .5em;
+}
+
+h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .headerlink, h5:hover .headerlink, h6:hover .headerlink{
+    display:inline-block;
+}
+
+a {
+    transition: all .45s;
+}
+
+a:hover {
+    transition: all .45s;
+    text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Gillsans, "Open Sans",Calibri,Candara,Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+p, ul, ol {
+    text-align: justify;
+}
